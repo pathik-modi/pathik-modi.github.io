@@ -1,0 +1,139 @@
+#body {
+  background-color: black;
+}
+
+header {
+  color: #fd574e;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+main {
+  color: #fd574e;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.nav-logo h1 {
+  font-weight: 900;
+}
+
+footer {
+  color: #fd574e;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 30px;
+}
+
+/*link colours*/
+a:link {
+  color: #fd574e;
+}
+a:visited {
+  color: #fd574e;
+}
+a:hover {
+  color: #63ff61;
+}
+a:active {
+  color: #fd574e;
+}
+
+/*navigation on the same line as logo*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+div a {
+  text-decoration: none;
+}
+
+/*Positioning for Intro: image on left & text on the right*/
+.intro-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.intro-outer-box {
+  padding: 120px;
+  background-color: #a8bffb;
+}
+
+#intro-column {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*Positioning for Blog: blog entries in each box*/
+.blog-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-outer-box {
+  padding: 100px;
+  background-color: black;
+}
+
+#blog-column {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  background-color: #fec02f;
+  text-align: center;
+}
+
+/*Positioning for Footer: info on the left & logo on the right*/
+footer {
+  color: white;
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-outer-box {
+  padding: 30px;
+  background-color: black;
+}
+
+#footer-column {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*Blog page specific edit*/
+.blog-content {
+  font-family: 'Darker Grotesque', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fd574e;
+  padding-top: 30px;
+}
