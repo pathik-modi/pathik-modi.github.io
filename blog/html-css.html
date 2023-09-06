@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Concepts Blog</title>
+    <link
+      rel="stylesheet"
+      href="/Users/pathikmodi/devAcademy/pathik-modi.github.io/styles/main.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="body">
+    <!-- Header/Navigation -->
+    <header>
+      <div class="logo">
+        <a
+          href="file:///Users/pathikmodi/devAcademy/pathik-modi.github.io/index.html"
+          class="nav-logo"
+        >
+          <h1>pathik modi.</h1>
+        </a>
+      </div>
+      <nav>
+        <ul class="main-nav">
+          <li>
+            <a
+              href="file:///Users/pathikmodi/devAcademy/pathik-modi.github.io/index.html"
+              >home</a
+            >
+          </li>
+          <li>
+            <a
+              href="file:///Users/pathikmodi/devAcademy/pathik-modi.github.io/index.html"
+              >blogs</a
+            >
+          </li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="blog-page-overall">
+      <!-- Blog title section -->
+    <section class="blog-title-section">
+      <div class="blog-title-row">
+        <div class="blog-title-row" id="blog-column-heading"><h2>Techincal Blog<br>CSS Concepts</h2></div>
+        <div class="blog-title-row" id="blog-column-sub-heading">
+          <h3>What are the differences between relative, absolute, and fixed positioning?
+            <br>HTML & CSS are the primary building blocks for making a website. HTML is the contents that get added to the website. Think of all the words, links, images, lists, forms - that's HTML. CSS helps to display that content on the website in a what that makes sense and looks aesthetically pleasing. With that in mind lets dive into CSS positioning.
+          </h3>
+        </div>
+      </div>
+    </section>
+    <!-- Blog body section -->
+    <section>
+      <div class="blog-body">
+        <h3>Positioning on CSS:</h3>
+          <p>Positioning property in CSS specifies the type of position to use for an HTML element (content). this determines how the content is displayed on the website.
+            CSS has 5 positions you can assign to an element: static, relative, fixed, absolute & sticky.
+            Static is the default position assigned to the element.
+            Today we are going to dive deeper to understand the custom position types,
+            <ul>
+              <li>Relative</li>
+              <li>Absolute</li>
+              <li>fixed</li>
+            </ul>
+          </p><br>
+        <h3>
+          Relative
+        </h3>
+          <p>
+            <img src="/Users/pathikmodi/devAcademy/pathik-modi.github.io/img/relative.png" alt="Relative example screenshot" width="500" height="335">
+            <ol>
+              <li>Syntax - position: relative;</li>
+              <li>Relatively positions the element to the place it had when it was static (default position in CSS)</li>
+              <li>The element saves a blank space in the position it was given under static</li>
+              <li>Other elements in the section/parent will stay where they were.</li>
+              <li>By default it stays full width</li>
+              <li>Its usually assigned relative to the static position. So might not show when you scroll enough on the website</li>
+            </ol>
+          </p><br>
+        <h3>
+          Absolute
+        </h3>
+          <p>
+            <img src="/Users/pathikmodi/devAcademy/pathik-modi.github.io/img/absolute.png" alt="Absolute example screenshot" width="500" height="335">
+            <ol>
+              <li>Syntax - position: absolute;</li>
+              <li>It makes the element absolute or fixed but gets assigned to the nearest parent of the element</li>
+              <li>The element leaves the position it was given when static</li>
+              <li>Other elements in the section/parent will take its place</li>
+              <li>By default it changes from full width to auto</li>
+              <li>Assigned to the top left corner. It gets assigned to the nearest parent so could be just outside the section/parent. It might no not show if you scroll enough on the webpage</li>
+            </ol>
+          </p><br>
+        <h3>
+          Fixed
+        </h3>
+          <p>
+            <img src="/Users/pathikmodi/devAcademy/pathik-modi.github.io/img/fixed.png" alt="Fixed example screenshot" width="500" height="335">
+            <ol>
+              <li>Syntax - position: fixed;</li>
+              <li>Bit like absolute but it assigns the element to the viewpoint of a website</li>
+              <li>The element leaves the position it was given when static</li>
+              <li>Other elements in the section/parent will take its place</li>
+              <li>By default it changes from full width to auto</li>
+              <li>Assigned to the top left corner it will stay fixed there even if you scroll the website</li>
+            </ol>
+          </p>
+      </div>
+    </section>
+    </section>
+  </body>
+</html>

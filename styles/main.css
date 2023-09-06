@@ -1,3 +1,13 @@
+/*
+colours and hex reposotory
+Dark Blue: #1A41F0
+Light Blue: #1BF9FB
+White: #FFFFFF
+Yellow: #FFEA1C
+Pink: #FF00FA
+Green: #06F906
+*/
+
 #body {
   background-color: black;
 }
@@ -34,7 +44,7 @@ a:visited {
   color: #fd574e;
 }
 a:hover {
-  color: #63ff61;
+  color: #ff00fa;
 }
 a:active {
   color: #fd574e;
@@ -76,12 +86,13 @@ div a {
 }
 .intro-outer-box {
   padding: 120px;
-  background-color: #a8bffb;
+  background-color: #1a41f0;
 }
 
 #intro-column {
   padding-left: 10px;
   padding-right: 10px;
+  font-size: 50px;
 }
 
 /*Positioning for Blog: blog entries in each box*/
@@ -100,10 +111,10 @@ div a {
 #blog-column {
   padding-left: 10px;
   padding-right: 10px;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   margin: 10px;
-  background-color: #fec02f;
+  background-color: #06f906;
   text-align: center;
 }
 
@@ -130,10 +141,37 @@ footer {
 }
 
 /*Blog page specific edit*/
-.blog-content {
-  font-family: 'Darker Grotesque', sans-serif;
+
+.blog-title-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffea1c;
+}
+
+#blog-column-heading {
+  padding: 20px;
+}
+
+#blog-column-heading h2 {
   font-weight: 700;
-  font-size: 30px;
+}
+
+#blog-column-sub-heading {
+  padding: 20px;
+}
+
+.blog-page-overall {
+  font-family: 'Darker Grotesque', sans-serif;
   color: #fd574e;
-  padding-top: 30px;
+  padding: 20px;
+}
+
+.blog-body {
+  padding: 50px;
+  font-size: 24px;
+}
+
+.blog-body h3 {
+  font-weight: bold;
 }
