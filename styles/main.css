@@ -27,6 +27,18 @@ footer {
   font-size: 30px;
 }
 
+.blog-title-section {
+  color: #fd574e;
+}
+
+.blog-body {
+  color: whitesmoke;
+}
+
+.blog-body h3 {
+  color: #fd574e;
+}
+
 /* #blog-column {
   background-color: #06f906;
 } */
@@ -64,11 +76,25 @@ main h1 {
   font-size: 4em;
 }
 
+/* This blog column is in the homepage */
 .blog-column {
   font-size: 1.5em;
 }
 
-/*navigation on the same line as logo*/
+/* This blog styling is for the actual blog */
+.blog-page-overall {
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+.blog-column-heading h1 {
+  font-weight: 800;
+}
+
+.blog-body {
+  font-size: 1.3em;
+}
+
+/*Navigation on the same line as logo*/
 header {
   display: flex;
   justify-content: space-between;
@@ -139,36 +165,25 @@ div a {
 
 /*Blog page specific edit*/
 
+.blog-page-overall {
+  margin: 100px 30px 100px 30px;
+}
+
 .blog-title-row {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  background-color: #ffea1c;
+  align-items: baseline;
+  justify-content: left;
 }
 
-#blog-column-heading {
-  padding: 20px;
+.blog-title-section {
+  padding-bottom: 100px;
 }
 
-#blog-column-heading h2 {
-  font-weight: 700;
-}
-
-#blog-column-sub-heading {
-  padding: 20px;
-}
-
-.blog-page-overall {
-  font-family: 'Darker Grotesque', sans-serif;
-  color: #fd574e;
-  padding: 20px;
+.blog-column-heading {
+  width: 700px;
 }
 
 .blog-body {
-  padding: 50px;
-  font-size: 24px;
-}
-
-.blog-body h3 {
-  font-weight: bold;
+  padding-right: 400px;
 }
