@@ -187,3 +187,12 @@ div a {
 .blog-body {
   padding-right: 400px;
 }
+
+table th {
+  border-bottom: 1px solid #fd574e;
+  text-align: center;
+}
+
+table td {
+  text-align: center;
+}
